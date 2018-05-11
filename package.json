@@ -1,0 +1,22 @@
+{
+  "name": "day-serial",
+  "version": "1.0.0",
+  "description": "day serial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/day-serial.git"
+  },
+  "keywords": [
+    "serial"
+  ],
+  "author": "AlfieriChou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/day-serial/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/day-serial#readme"
+}

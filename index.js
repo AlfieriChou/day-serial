@@ -1,6 +1,6 @@
 'use strict'
 
-function serial () {
+function serial (head) {
   let timeStr = ''
   let reg = /^\d$/
   let now = new Date()
@@ -9,7 +9,7 @@ function serial () {
   m = reg.test(m) ? '0' + m : m
   d = reg.test(d) ? '0' + d : d
   timeStr += now.getFullYear() + m + d
-  let serial = 'A0000' + timeStr
+  let serial = head + timeStr
   return serial
 }
 

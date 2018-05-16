@@ -16,9 +16,36 @@ console.log(a)	// A000020180511
 
 #### 示例
 
+* 不传参
 ```javascript
 const serial = require('day-serial')
 
+let a = serial()
+console.log(a)	// A000020180511
+```
+
+* 传参
+```javascript
+const serial = require('day-serial')
+
+let b = serial('ABC000')
+console.log(b)	// ABC00020180511
+
 let a = serial('ABC000')
 console.log(a)	// ABC00020180511
+```
+
+* ES6
+```javascript
+import serial from 'day-serial'
+
+let a = serial()
+console.log(a)	// A000020180511
+
+let b = serial('ABC000')
+console.log(b)	// ABC00020180511
+
+let head = 'ABC000'
+let c = serial(head)
+console.log(c)	// ABC00020180511
 ```

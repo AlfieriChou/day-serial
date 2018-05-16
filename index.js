@@ -9,8 +9,15 @@ function serial (head) {
   m = reg.test(m) ? '0' + m : m
   d = reg.test(d) ? '0' + d : d
   timeStr += now.getFullYear() + m + d
-  let serial = head + timeStr
-  return serial
+  let result = ''
+  if (!head) {
+    let serial = 'A0000' + timeStr
+    result = serial
+  } else {
+    let serial = head + timeStr
+    result = serial
+  }
+  return result
 }
 
 module.exports = serial

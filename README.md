@@ -1,7 +1,7 @@
 # day-serial
 每天产生一条日期编号
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![license](https://img.shields.io/github/license/mono-js/mono-utils.svg)](https://github.com/AlfieriChou/day-serial/blob/master/LICENSE)
 
 ### 示例
 

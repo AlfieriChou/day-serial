@@ -1,6 +1,6 @@
 {
   "name": "day-serial",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "day serial.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/AlfieriChou/day-serial/issues"
   },
-  "homepage": "https://github.com/AlfieriChou/day-serial#readme"
+  "homepage": "https://github.com/AlfieriChou/day-serial#readme",
+  "dependencies": {}
 }

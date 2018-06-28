@@ -10,13 +10,7 @@ function serial (head) {
   d = reg.test(d) ? '0' + d : d
   timeStr += now.getFullYear() + m + d
   let result = ''
-  if (!head) {
-    let serial = 'A0000' + timeStr
-    result = serial
-  } else {
-    let serial = head + timeStr
-    result = serial
-  }
+  result = typeof (head) === 'undefined' ? 'A0000' + timeStr : head + timeStr
   return result
 }
 

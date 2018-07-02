@@ -1,9 +1,9 @@
 # day-serial
-每天产生一条日期编号
+Generate daily id
 
 [![NPM version][npm-image]][npm-url] [![license](https://img.shields.io/github/license/mono-js/mono-utils.svg)](https://github.com/AlfieriChou/day-serial/blob/master/LICENSE)
 
-### 示例
+### example
 
 ```javascript
 const serial = require('day-serial')
@@ -12,13 +12,13 @@ let a = serial()
 console.log(a)	// A000020180511
 ```
 
-## 第一次更新
+### first update
 
-* 支持自定义头部
+* Supports head parameters
 
-#### 示例
+#### example
 
-* 不传参
+* no parameters
 ```javascript
 const serial = require('day-serial')
 
@@ -26,7 +26,7 @@ let a = serial()
 console.log(a)	// A000020180511
 ```
 
-* 传参
+* parameters
 ```javascript
 const serial = require('day-serial')
 

@@ -5,13 +5,10 @@ function serial (head) {
   let result
   let reg = /^\d$/
   let now = new Date()
-  let m = now.getMonth() + 1
-  let d = now.getDate()
-  m = reg.test(m) ? '0' + m : m
-  d = reg.test(d) ? '0' + d : d
-  timeStr += now.getFullYear() + m + d
-  result = typeof (head) === 'undefined' ? 'A0000' + timeStr : head + timeStr
-  return result
+  let mouth = reg.test(now.getMonth() + 1) ? '0' + now.getMonth() + 1 : now.getMonth() + 1
+  let day = reg.test(now.getDate()) ? '0' + now.getDate() : now.getDate()
+  timeStr += now.getFullYear() + mouth + day
+  return result = typeof (head) === 'undefined' ? 'A0000' + timeStr : head + timeStr
 }
 
 module.exports = serial

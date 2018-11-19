@@ -1,7 +1,7 @@
 # day-serial
 Generate daily id
 
-[![NPM version][npm-image]][npm-url] [![license](https://img.shields.io/github/license/mono-js/mono-utils.svg)](https://github.com/AlfieriChou/day-serial/blob/master/LICENSE)
+[![NPM version][npm-image]][npm-url] [![license](https://img.shields.io/github/license/mono-js/mono-utils.svg)](https://github.com/AlfieriChou/day-serial/blob/master/LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/AlfieriChou/day-serial.svg)](https://greenkeeper.io/)
 
 ### example
 
